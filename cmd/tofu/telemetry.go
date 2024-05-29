@@ -17,7 +17,7 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.4.0"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/opentofu/opentofu/version"
+	"github.com/adrien-f/opentofu-opened/version"
 )
 
 // If this environment variable is set to "otlp" when running OpenTofu CLI

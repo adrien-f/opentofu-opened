@@ -16,14 +16,14 @@ import (
 	"github.com/hashicorp/terraform-svchost/disco"
 	"github.com/mitchellh/cli"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/command"
-	"github.com/opentofu/opentofu/internal/command/cliconfig"
-	"github.com/opentofu/opentofu/internal/command/views"
-	"github.com/opentofu/opentofu/internal/command/webbrowser"
-	"github.com/opentofu/opentofu/internal/getproviders"
-	pluginDiscovery "github.com/opentofu/opentofu/internal/plugin/discovery"
-	"github.com/opentofu/opentofu/internal/terminal"
+	"github.com/adrien-f/opentofu-opened/pkg/addrs"
+	"github.com/adrien-f/opentofu-opened/pkg/command"
+	"github.com/adrien-f/opentofu-opened/pkg/command/cliconfig"
+	"github.com/adrien-f/opentofu-opened/pkg/command/views"
+	"github.com/adrien-f/opentofu-opened/pkg/command/webbrowser"
+	"github.com/adrien-f/opentofu-opened/pkg/getproviders"
+	pluginDiscovery "github.com/adrien-f/opentofu-opened/pkg/plugin/discovery"
+	"github.com/adrien-f/opentofu-opened/pkg/terminal"
 )
 
 // runningInAutomationEnvName gives the name of an environment variable that

@@ -15,10 +15,10 @@ import (
 	"github.com/apparentlymart/go-userdirs/userdirs"
 	"github.com/hashicorp/terraform-svchost/disco"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/command/cliconfig"
-	"github.com/opentofu/opentofu/internal/getproviders"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/adrien-f/opentofu-opened/pkg/addrs"
+	"github.com/adrien-f/opentofu-opened/pkg/command/cliconfig"
+	"github.com/adrien-f/opentofu-opened/pkg/getproviders"
+	"github.com/adrien-f/opentofu-opened/pkg/tfdiags"
 )
 
 // providerSource constructs a provider source based on a combination of the
